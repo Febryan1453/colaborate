@@ -25,4 +25,6 @@ class AuthController extends Controller
             ], Response::HTTP_OK);
         }
     }
+
+    // Nama : Febryan
 }
