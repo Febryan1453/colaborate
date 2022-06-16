@@ -32,3 +32,4 @@ Route::controller(Welc0meController::class)->group(function () {
 
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/data-film', [App\Http\Controllers\HomeController::class, 'film'])->name('film');

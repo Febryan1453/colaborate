@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string("judul")->unique();
             $table->string("slug");
             $table->date("waktu_rilis");
+            $table->integer("harga");
             $table->text("sinopsis");
             $table->string("gambar");
             $table->timestamps();
